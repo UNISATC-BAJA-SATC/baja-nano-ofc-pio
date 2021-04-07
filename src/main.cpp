@@ -174,6 +174,6 @@ void loop() {        //INICIO DO LOOP
 */
 void calculaHour() {
   if (rot != 0){
-    //começa a conta o relogio
+    //começa a conta o relogio conta as hora
   }
 }
