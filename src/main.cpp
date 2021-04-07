@@ -118,7 +118,7 @@ byte pinPitComfirmedApertado() {        // LEITURA DO BOTÃO PIT COMFIRMED EM DO
   return estadoRet;
 }
 
-void setup() {        // INICIO DO PROGRAMA
+void setup() {        // INICIO DO PROGRAMA ai carai ta funcionando o github!!!!!
   nexInit(); 
 
   delay(1500);
