@@ -3,9 +3,9 @@
 #include "max6675.h"
 #include <SPI.h>
 #include <SoftwareSerial.h>
-#define thermoDO 11
-#define thermoCS 10
-#define thermoCLK 8
+#define thermoDO 9
+#define thermoCS 8
+#define thermoCLK 7
 
 #define veloPin 2       //2
 #define rotacaoPin A0   //A0
