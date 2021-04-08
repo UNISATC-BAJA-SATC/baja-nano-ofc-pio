@@ -118,7 +118,7 @@ byte pinPitComfirmedApertado() {        // LEITURA DO BOTÃO PIT COMFIRMED EM DO
   return estadoRet;
 }
 
-void setup() {        // INICIO DO PROGRAMA ai carai ta funcionando o github!!!!!
+void setup() {        // INICIO DO PROGRAMA
   nexInit(); 
 
   delay(1500);
@@ -174,6 +174,6 @@ void loop() {        //INICIO DO LOOP
 */
 void calculaHour() {
   if (rot != 0){
-    //começa a conta o relogio
+    //começa a conta o relogio conta as hora
   }
 }
