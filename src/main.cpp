@@ -119,12 +119,12 @@ byte pinPitComfirmedApertado() {        // LEITURA DO BOTÃO PIT COMFIRMED EM DO
 }
 
 void setup() {        // INICIO DO PROGRAMA
-  nexInit(); 
-
   delay(1500);
   page1.show();
   isPage = 1;
   
+  nexInit();
+
   pinMode(rotacaoPin, INPUT_PULLUP);
   pinMode(veloPin, INPUT_PULLUP);
   pinMode(sensor1, INPUT_PULLUP);
